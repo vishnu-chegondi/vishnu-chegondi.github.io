@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Python, Django, Flask, Docker, AWS, Ansible, Web UI
+percentage: 95, 90, 75, 80, 75, 80, 60
