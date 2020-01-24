@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Web Authorizations"
-date:   2019--06-29 10:07:19
+date:   2019-06-29 10:07:19
 categories: [Web]
 comments: true
 ---
