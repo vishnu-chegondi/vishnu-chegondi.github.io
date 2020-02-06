@@ -72,7 +72,7 @@ OAuth is used for providing authorization to services. For suppose you want to p
 
 **Client :** The appliction which is trying to access the service. Here gaming application is the Client
 **Resource Server :** The service which needs to be accessed is the resource server. Here google storage is resource server
-**Authorization Seerver :** The service which provides the token to client for accessing the resource server is the Authorization server.
+**Authorization Server :** The service which provides the token to client for accessing the resource server is the Authorization server.
 
 There are different flows followed for implementig this OAUTH authorization. Few of them are 
 
