@@ -1,3 +1,7 @@
+- name: GithubTerraformCDKTF
+  descr: "Terraform CDKTF project to manage github resources. Uses github provider"
+  image: pong.png
+  github: https://github.com/vishnu-chegondi/github-terraform-cdktf
 - name: Cargobuilt_AWS
   descr: "Ansible play to create the aws infrastructure and create instances. We use the roles to isolate the process of creation of the infrastructure and instance maintanance"
   image: pong.png

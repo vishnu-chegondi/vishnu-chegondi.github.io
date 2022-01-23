@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Python, Django, Flask, Docker, AWS, Ansible, Web UI
-percentage: 95, 90, 75, 80, 75, 80, 60
+aspects: Python, Django, Golang, Docker, AWS, Ansible, Kubernetes, ArgoCd, Jenkins, Terraform
+percentage: 95, 90, 75, 90, 80, 60, 80, 80, 90, 85
