@@ -1,6 +1,5 @@
 <h1><span data-i18n="skills.my_skills">Projects</span></h1>
 
-<p>The following are the some projects developed while learning new tools.</p>
 
 {% for project in site.data.index.projects %}
     <div class="row">
@@ -15,6 +14,8 @@
                 <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
                 {% endif %}
 
+
             </div>
     </div>
+    <br>
 {% endfor %}
