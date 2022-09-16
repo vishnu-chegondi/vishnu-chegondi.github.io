@@ -4,6 +4,8 @@ title:  "Web Authorizations"
 date:   2019-06-29 10:07:19
 categories: [Web]
 comments: true
+author: vishnuchegondi
+tags: [Security]
 ---
 
 We are going to see different types of Authorizations. Before going to that why we need a Authorization and session management in Web Applications. 

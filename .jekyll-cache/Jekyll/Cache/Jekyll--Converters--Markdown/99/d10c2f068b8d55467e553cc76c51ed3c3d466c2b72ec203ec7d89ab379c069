@@ -1,0 +1,40 @@
+I"°
+<p>Docker is a program developed using Go Lang(systems Language) which manages the kernel of your machine to create and maintain container infra structure</p>
+
+<blockquote>
+  <p>This post mainly covers the docker as a program, before going through this learn about docker architecture(images, containers) and what is docker.</p>
+</blockquote>
+
+<!--more-->
+
+<p><strong>Kernel:</strong> Kernel is a decor over your machine which recives signals from your hardware. It makes the process to run, schedule them and what ever instruction you give by your program or your UI actions sends signals to kernel to execute.</p>
+
+<h2 id="under-the-hook">Under the hook</h2>
+
+<p>Docker as a program handles and maintain the following by interacting with the kernel</p>
+
+<ul>
+  <li><strong>Processes(Using Cgroups of the kernel) :</strong> It groups together the processors and isolates from other process to create a isolated world of containers.</li>
+  <li><strong>Networking(Using Namespaces) :</strong> Using the namespaces docker creates the virtual bridges betweeen containers(group of processes) to communicate between the containers attached to bridges.</li>
+  <li><strong>File System(Save-on-write) :</strong> It saves the images and anything changes made on containers can be committed to new images. Any changes on the container can be made with out effecting the image file. You can look image as an executable file. Storage and shared spaces also maintained.</li>
+</ul>
+
+<h3 id="process">Process</h3>
+
+<ul>
+  <li>Process is always a parent-child relation. When a child process exits it returns the exit code to the parent process. Different parallel process run together. Each process takes a RAM, execution(CPU) etc.</li>
+  <li>Container is a init process which(Process Zero) is the main process of the containers. When your parent process exits container stops and no other child process runs. Mostly, process runs shell and from this shell other commands(child process runs)</li>
+</ul>
+
+<h3 id="networking">Networking</h3>
+
+<p>Docker manages the networking for you. Netwroking is divided into different layers.</p>
+
+<ul>
+  <li>Ethernet Layer this is mainly the local network where containers of same network communicate with each other through virtual bridges that are connected to.</li>
+  <li>Next comes the IP protocol layer where actually packets move between programs of different networks. Routing is how packets gets into and out of noetworks.</li>
+  <li>Ports are nothing but specific programs on your computer listens to traffic.</li>
+</ul>
+
+<p>Docker create a virtual private networks using the virtual bridges. When you create a network it creates a bridge(a software switches). These bridges control the ethernet layer.</p>
+:ET

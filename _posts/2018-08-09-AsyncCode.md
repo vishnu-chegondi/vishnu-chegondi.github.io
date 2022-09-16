@@ -4,6 +4,8 @@ title:  "Asynchronous Programming"
 date:   2018-08-09 16:27:24
 categories: [Coding]
 comments: true
+author: vishnuchegondi
+tags: [Advanced Python]
 ---
 
 For understanding the asynchronous, we start from the synchronous or sequenctial programming where each intruction of your python code is executed one by one by interpreter.

@@ -4,6 +4,8 @@ title:  "Files and Directories"
 date:   2022-03-03 10:42:00
 categories: [Linux]
 comments: true
+author: vishnuchegondi
+tags: [Storage]
 ---
 
 Files are the most fundamental abstraction of Linux. In Linux <i>everything-is-a-file</i>.

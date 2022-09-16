@@ -1,0 +1,17 @@
+I"ñ<p>I had been working as a Backend Engineer building web APIs and automating things for Operations team to reduce toil work. Later started working with DevOps teams helping them coding and configuring the infrastructure.</p>
+
+<p>Currently my keen interest is on developing tools that ease the deployment of microservice applications.</p>
+
+<h3 id="public-work">Public Work</h3>
+
+<h4 id="docaegis"><a href="https://github.com/vishnu-chegondi/docaegis">DocAegis</a></h4>
+
+<p>DocAegis is cli tool to protect your directories from accidental termination. It creates the hard links and use them to retrive data when they are deleted unintentionally.</p>
+
+<h4 id="pyorchestrator"><a href="https://github.com/vishnu-chegondi/pyOrchestrator">PyOrchestrator</a></h4>
+
+<p>PyOrchestrator is a simple python script which runs different commands on multiple remote servers asynchronously.</p>
+
+<!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip } -->
+:ET
