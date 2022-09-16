@@ -6,6 +6,4 @@ _drafts
 .ruby-version
 Gemfile.lock
 _posts/2019-07-21-DesignPatters.md
-.jekyll-cache/*
-*.DS_Store*
-.DS_Store
+.jekyll-cache
