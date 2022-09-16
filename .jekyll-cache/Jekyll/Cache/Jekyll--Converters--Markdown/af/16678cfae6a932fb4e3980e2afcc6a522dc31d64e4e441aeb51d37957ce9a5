@@ -1,5 +1,0 @@
-I"<p>We are going to see different types of Authorizations. Before going to that why we need a Authorization and session management in Web Applications.</p>
-<blockquote>
-  <p>HTTP is a stateless protocol means each request is independent of before and after requests.</p>
-</blockquote>
-:ET

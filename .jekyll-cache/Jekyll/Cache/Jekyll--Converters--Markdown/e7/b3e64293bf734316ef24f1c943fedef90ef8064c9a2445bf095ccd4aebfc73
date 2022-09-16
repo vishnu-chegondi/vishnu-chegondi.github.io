@@ -1,3 +1,0 @@
-I"_<p>This is used to add security to your web while transmitting the user information between server and client(browser).This is done by Encryption of data between server and client. If the browser identifies the Encryption and the certificate associated to it as trusted then it tells your user the connection is secure, you can transfer your personal information. You can handle your own certificate or use the certificate provided by third party <a href="https://letsencrypt.org/">Let’s Encrypt</a>. Let us dive into let’sencrypt and open blackbox. It provides certificate for you in two methods.</p>
-
-:ET
