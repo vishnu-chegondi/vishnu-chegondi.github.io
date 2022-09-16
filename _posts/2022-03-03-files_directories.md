@@ -19,7 +19,7 @@ The most common files we interact daily to store data are labeled as regualar fi
 ### Information Node(inode)
  inode stores the metadata related to the particular file(byte stream) such as starting position of the file, size, location and permissions. Whenever we open a file it is identified by <b>unique descriptor(file descriptor)</b> a mapping from inode to file itself and operations starts from initial byte location called <b>file position(fp)</b>. Whenever we read from file fp will be increased from byte-to-byte.
 
-![Inode Tables](/img/inode_tables.png)
+![Inode Tables](assets/img/inode_tables.png)
 
 ### HardLinks
 
@@ -60,7 +60,7 @@ So, with 32 bit CPU we can process maximum file of size 4 GB during a process.
 Accessing files using inode number is difficult and not a good idea as we should be accessing them across filesystems. So we usually use names along with paths to access the files. To provide the paths we use directories mappings of inodes and the filenames called ***links***.  The physical on-disk form of mapping is actually defined by filesystem and managed by kernel. When a user requests a filename to be opened, the kernel uses the mappings and get the inode number and returns the file descriptor.
 Althought directories are like regular files kernel does not allow them to manipulate as regular files. We have different set of system calls to manipulate them. Directory holds different links to interal directory inodes or file inodes.
 
-![directory structure](/img/directory_file.png)
+![directory structure](assets/img/directory_file.png)
 
 #### Reaching nested directories
 
